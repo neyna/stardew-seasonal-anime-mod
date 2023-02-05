@@ -149,12 +149,12 @@
 
         "HarveyFacialHair":
         {
-            "AllowValues": "False",
+            "AllowValues": "True, False",
             "Default": "False"
         },
         "NoNose":
         {
-            "AllowValues": "True",
+            "AllowValues": "True, False",
             "Default": "True"
         },
         "FestivalOutfits":
@@ -1027,6 +1027,7 @@
             {
                 "HasFile:{{FromFile}}": true,
 				"Pregnant": "Abigail, Emily, Haley, Leah, Maru, Penny",
+			}
         },
     ]
 }
