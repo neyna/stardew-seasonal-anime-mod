@@ -149,12 +149,12 @@
 
         "HarveyFacialHair":
         {
-            "AllowValues": "True, False",
-            "Default": "True"
+            "AllowValues": "False",
+            "Default": "False"
         },
         "NoNose":
         {
-            "AllowValues": "True, False",
+            "AllowValues": "True",
             "Default": "True"
         },
         "FestivalOutfits":
