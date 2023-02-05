@@ -1015,5 +1015,18 @@
 			}
 		},
 		
+		// Maternity
+		{
+		
+            "LogName": "Maternity Portraits",
+            "Action": "EditImage",
+			"Target": "Portraits/Abigail, Portraits/Emily, Portraits/Haley, Portraits/Leah, Portraits/Maru, Portraits/Penny,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Maternity.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"Pregnant": "Abigail, Emily, Haley, Leah, Maru, Penny",
+        },
     ]
 }
