@@ -49,7 +49,7 @@
 			"LogName": "Maru - Hospital",
 			"Action": "EditImage",
 			"Target": "Portraits/Maru_Hospital, Characters/Maru_Hospital",
-			"FromFile": "assets/{{Target}}.png",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.png",
 			"When":
 			{
 				"HasFile:{{FromFile}}": true,
