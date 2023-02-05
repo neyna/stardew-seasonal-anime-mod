@@ -58,6 +58,18 @@
 			},
             "Update": "OnTimeChange, OnLocationChange",
 		},
+		{
+			"LogName": "Demetrius - Lab Portrait",
+            "Action": "EditImage",
+			"Target": "Portraits/Demetrius",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Demetrius/Demetrius_Lab.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "ScienceHouse",
+			}
+        },
 		
 // NOSE OVERLAY
 		{
